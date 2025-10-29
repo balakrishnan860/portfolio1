@@ -3,7 +3,7 @@ import { useAuth } from '../authcontext/AuthContext'
 import ProjectCard from '../components/ProjectCard'
 import SkillBar from '../components/SkillBar'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
-import { contactSchema } from '../utils/Validators.js'
+import { contactSchema } from '../Utils/Validators.js'
 import profilePic from "../assets/profile.png";
 import weatherApp from "../assets/weather.jpg";
 import groceryApp from "../assets/grocery.jpg";

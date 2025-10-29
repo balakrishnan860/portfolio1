@@ -2,7 +2,7 @@ import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../authcontext/AuthContext'
-import { loginSchema } from '../utils/Validators.js'
+import { loginSchema } from '../Utils/Validators.js'
 
 export default function Login(){
   const { login } = useAuth()
