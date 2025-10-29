@@ -4,7 +4,7 @@ import Login from '../pages/Login'
 import Signup from '../pages/Signup'
 import Portfolio from '../pages/Portfolio'
 import ProtectedRoute from '../components/ProtectedRoute'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../authcontext/AuthContext'
 
 export default function AppRoutes(){
   const { user } = useAuth()

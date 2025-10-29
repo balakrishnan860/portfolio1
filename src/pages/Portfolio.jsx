@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../authcontext/AuthContext'
 import ProjectCard from '../components/ProjectCard'
 import SkillBar from '../components/SkillBar'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
